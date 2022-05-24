@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Calculator</title>
+</head>
+<body>
+    <header>
+    <h1>Simple Calculator</h1>
+    </header>
+    <main>
+
+        <p>Enter the two values in the prompt and the results of the four operations + - * / will be displayed in the results zone</p>
+
+    <form>
+            1st Number: <input type="text" id="firstNumber" /><br>
+            2nd Number: <input type="text" id="secondNumber" /><br>
+            <br>
+            <input type="button" onClick="sum()" Value="Sum" />
+            <input type="button" onClick="subtract()" Value="Subtract" />
+            <input type="button" onClick="multiplyBy()" Value="Multiply" />
+            <input type="button" onClick="divideBy()" Value="Divide" /><br>
+    </form>
+
+        <div class="math-results" id="results">   
+            <h2>Results Zone!</h2> 
+        </div>    
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        All the copyrights are reserved &copy; 2022 Kacy Clark
+    </footer>
+
+    <script src="calculator.js"></script>
+</body>
+</html>   
